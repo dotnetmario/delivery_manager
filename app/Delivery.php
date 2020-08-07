@@ -85,10 +85,10 @@ class Delivery extends Model
         );
 
 
-        $flight = App\Flight::firstOrCreate(
-            ['name' => 'Flight 10'],
-            ['delayed' => 1, 'arrival_time' => '11:30']
-        );
+        //$flight = App\Flight::firstOrCreate(
+        //    ['name' => 'Flight 10'],
+        //    ['delayed' => 1, 'arrival_time' => '11:30']
+        //);
     }
 
     /**
